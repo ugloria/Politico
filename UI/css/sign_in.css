@@ -1,5 +1,5 @@
 html,body {
-    background-color: #CCC;
+    background-color:white;
 }
 .container{
     width: 450px;
@@ -16,6 +16,17 @@ html,body {
     border: none;
     outline: none;
     margin:  10px;
+}
+.red_button{
+    height: 30px;
+    background-color: #ff0000;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin:  10px;  
+}
+.red_button:hover{
+    background-color: rgb(255, 81, 0);
 }
 .button:hover {
     background-color: rgb(0, 255, 179);
